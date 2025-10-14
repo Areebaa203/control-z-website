@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control Z</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-------- landing-page ---------->
+    <div class="landingpg">
+  <div class="hero-section">
+    <!-- ====== IMAGE AREA WITH NAVBAR ====== -->
+    <div class="hero-image">
+      <div class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+          <img
+            src="./images/cz_Lockup_White.png"
+            alt="Control Z Logo"
+            class="logo-img"
+          />
+        </div>
+
+        <!-- Navigation Links (Hidden on Mobile) -->
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Resources & News</a></li>
+          <li><a href="#">Get Started</a></li>
+        </ul>
+
+        <!-- Nav Button -->
+        <div class="nav-btn-contact">
+          <button class="contact-btn">Contact Us</button>
+        </div>
+
+        <!-- Hamburger Menu (Visible on Mobile) -->
+        <button class="hamburger-menu" id="hamburger-menu">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- ====== BLACK CONTENT AREA ====== -->
+    <div class="hero-content">
+      <h2>
+        Mental health & holistic <span>wellness</span> in Massachusetts
+      </h2>
+      <p>
+        We provide a safe and supportive space for holistic healing,
+        mindfulness, and community care in Massachusetts
+      </p>
+      <div class="hero-buttons">
+        <button class="primary-btn">Become A Member</button>
+        <button class="secondary-btn">Get Started</button>
+      </div>
+    </div>
+  </div>
+
+  <!-------- Mobile Menu ---------->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-btn" id="close-btn">
+      <i class="ri-close-line"></i>
+    </button>
+
+    <div class="mobile-menu-content">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">Resources & News</a></li>
+        <li><a href="#">Get Started</a></li>
+      </ul>
+      <button class="contact-btn mobile-contact-btn">Contact Us</button>
+    </div>
+  </div>
+
+  <!-------- Overlay ---------->
+  <div class="overlay" id="overlay"></div>
+    </div>
+
+
+    <!-- Our Vision Section -->
+    <div class="vision-section">
+  <div class="vision-container">
+    <!-- Left Text Content -->
+    <div class="vision-text">
+      <p class="small-heading">Integrated Wellness Is The Future.</p>
+      <h2>Our Vision for <span>Wellness</span></h2>
+      <p class="vision-description">
+        Control-Z is a holistic wellness collective committed to bridging
+        the gap between mental and physical health.
+      </p>
+      <p class="vision-description">
+        Our vision is to create an inclusive space where individuals can
+        access integrative care, combining modern therapeutic practices with
+        holistic approaches to nurture balance, healing, and long-term
+        well-being.
+      </p>
+      <button class="get-started-btn">Get Started</button>
+    </div>
+
+    <!-- Right Image -->
+    <div class="vision-image">
+      <img
+        src="./images/client-img.png"
+        alt="Meditation"
+        class="client-img"
+      />
+    </div>
+  </div>
+    </div>
+
+
+    <!-------------------- Approach Section -------------------->
+    <div class="approach-section">
+      <!--approach heading-->
+      <div class="approach-heading">
+        <p>Our Approach</p>
+        <h2>Our Core <span class="pink-pillar">Pillars</span></h2>
+      </div>
+
+      <!--approach pillars-->
+      <div class="main-pillar">
+        <!--First pillar-->
+        <div class="pillar-card">
+          <img src="./images/Mind.svg" alt="Mind Icon" class="pillar-icon" />
+          <h6>Mind</h6>
+          <p>
+            We nurture mental clarity and emotional resilience through
+            personalized care, therapy, and mindfulness. Our goal is to empower
+            individuals to navigate life.
+          </p>
+          <a href="#" class="get-started-link">
+            Get Started <i class="ri-arrow-right-s-line"></i>
+          </a>
+        </div>
+
+        <!--Second pillar-->
+        <div class="pillar-card">
+          <img src="./images/Heart.svg" alt="Heart Icon" class="pillar-icon" />
+          <h6>Body</h6>
+          <p>
+            Our integrative practices focus on restoring balance, building
+            strength, and supporting overall health. From movement to recovery,
+            we help the body heal and thrive naturally.
+          </p>
+          <a href="#" class="get-started-link">
+            Get Started <i class="ri-arrow-right-s-line"></i>
+          </a>
+        </div>
+
+        <!--Third pillar-->
+        <div class="pillar-card">
+          <img
+            src="./images/Community.svg"
+            alt="Community Icon"
+            class="pillar-icon"
+          />
+          <h6>Community</h6>
+          <p>
+            We believe healing is stronger together, in spaces built on trust
+            and inclusivity. Here, connection and shared experiences create
+            lasting. From movement to recovery.
+          </p>
+          <a href="#" class="get-started-link">
+            Get Started <i class="ri-arrow-right-s-line"></i>
+          </a>
+        </div>
+      </div>
+
+      <!--Bottom Button-->
+      <div class="see-how-btn">
+        <button>See How It Works <i class="ri-add-line"></i></button>
+      </div>
+    </div>
+
+    <!--------------------offer Section -------------------->
+    <div class="offer-section">
+      <!--offer heading-->
+      <div class="offer-heading">
+        <h6>What We Offer</h6>
+        <h2>Integrated Wellness <span class="pink-text">Services</span></h2>
+      </div>
+
+      <!--offer inner-content-->
+      <div class="inner-content">
+        <div class="offer-cards">
+          <div class="offer-card">
+            <img src="./images/V.svg" alt="v-Icon" class="v-icon" />
+            <h6 class="inner-content1">Psychedelic-Assisted Therapy</h6>
+            <p>
+              Safe, guided sessions that support mental clarity and healing.
+            </p>
+            <div class="plus-btn"><i class="ri-add-line"></i></div>
+          </div>
+
+          <div class="offer-card">
+            <img
+              src="./images/medical box.svg"
+              alt="medical-box-Icon"
+              class="medical-box-icon"
+            />
+            <h6 class="inner-content2">Psychiatry & Counseling</h6>
+            <p>
+              Evidence-based care tailored to individual mental health needs.
+            </p>
+            <div class="plus-btn"><i class="ri-add-line"></i></div>
+          </div>
+
+          <div class="offer-card">
+            <img
+              src="./images/click-path.svg"
+              alt="clip-path-Icon"
+              class="click-path-icon"
+            />
+            <h6 class="inner-content3">Meditation & Wellness</h6>
+            <p>Mind-body balance through mindfulness and healthy living.</p>
+            <div class="plus-btn"><i class="ri-add-line"></i></div>
+          </div>
+
+          <div class="offer-card">
+            <img src="./images/herbal.svg" alt="union-Icon" class="union-icon" />
+            <h6 class="inner-content4">Spa & Holistic Treatments</h6>
+            <p>Relaxation and rejuvenation for overall wellness.</p>
+            <div class="plus-btn"><i class="ri-add-line"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <!--icons-->
+      <div class="icons">
+        <i class="ri-arrow-left-s-line prev"></i>
+        <i class="ri-arrow-right-s-line next"></i>
+      </div>
+    </div>
+
+    <!--------------------Care Section -------------------->
+    <div class="care-section">
+      <!--Care-image-->
+      <div class="care-image">
+        <img src="./images/care-img.png" alt="care-img" class="care-img" />
+      </div>
+
+      <!--Care-content-->
+      <div class="care-content">
+        <!--choose-us-->
+        <div class="care-heading">
+          <h6>Why Choose</h6>
+          <h2>Our Care</h2>
+          <p>
+            We believe in providing care that is compassionate, professional,
+            and tailored to every individual.
+          </p>
+        </div>
+
+        <!--Care-icons-->
+        <div class="care-icons">
+          <!--Care-icon-1-->
+          <div class="care-item">
+            <img src="./images/Care.svg" alt="care-icon" class="care-icon" />
+            <div class="care-item-content">
+              <h4>Compassionate & Personalized Care</h4>
+              <p>
+                Every individual receives attention tailored to their unique
+                needs, ensuring a supportive and inclusive wellness experience.
+              </p>
+            </div>
+          </div>
+
+          <!--Care-icon-2-->
+          <div class="care-item">
+            <img
+              src="./images/Approach.svg"
+              alt="approach-icon"
+              class="care-icon"
+            />
+            <div class="care-item-content">
+              <h4>Integrative & Holistic Approach</h4>
+              <p>
+                We combine modern therapeutic practices with holistic healing
+                methods to nurture balance, growth, and long-term well-being.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------membership Section -------------------->
+    <div class="membership-section">
+      <!-- membership text -->
+      <div class="membership-text">
+        <p>Membership Teaser</p>
+        <h3>Discover the Benefits of Our <span>Membership</span></h3>
+        <p>
+          Join our membership program and take the first step towards better
+          health and well-being. From initial screenings to ongoing support,
+          we're here for you every step of the way.
+        </p>
+        <button>Get Started</button>
+      </div>
+      <span class="play-btn"><i class="ri-play-large-line"></i></span>
+
+      <!-- membership image -->
+      <img
+        src="./images/membership-teaser.png"
+        alt="membership-img"
+        class="membership-img"
+      />
+    </div>
+
+    <!--------------------logos Section -------------------->
+    <div class="company-logos">
+      <p>Used by the world's leading companies</p>
+      <div class="logo-container">
+        <img src="./images/webflow.svg" alt="Webflow logo" />
+        <img src="./images/relume.svg" alt="Relume logo" />
+        <img src="./images/webflow.svg" alt="Webflow logo" />
+        <img src="./images/relume.svg" alt="Relume logo" />
+        <img src="./images/webflow.svg" alt="Webflow logo" />
+        <img src="./images/relume.svg" alt="Relume logo" />
+        <img src="./images/webflow.svg" alt="Webflow logo" />
+      </div>
+    </div>
+
+    <!--------------------blog Section -------------------->
+    <section class="blog-section">
+  <!-- Blog Header -->
+  <div class="blog-header">
+    <div class="blog-title">
+      <h6>Blog</h6>
+      <h2>What's <span>happening</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <a href="#" class="view-all">View All <i class="ri-arrow-right-s-line"></i></a>
+  </div>
+
+  <!-- Blog Cards -->
+  <div class="blog-container">
+    <!-- Blog Card 1 -->
+    <div class="blog-card">
+      <img src="./images/blog-post-1.png" alt="blog1" class="blog-image" />
+      <div class="blog-content">
+        <h3>Finding Balance Between Body and Mind</h3>
+        <div class="blog-meta">
+          <p>2025-08-01</p>
+          <div class="circle-arrow">
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Card 2 -->
+    <div class="blog-card">
+      <img src="./images/blog-post-2.png" alt="blog2" class="blog-image" />
+      <div class="blog-content">
+        <h3>Everyday Practices for Holistic Wellness</h3>
+        <div class="blog-meta">
+          <p>2025-08-01</p>
+          <div class="circle-arrow">
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Card 3 -->
+    <div class="blog-card">
+      <img src="./images/blog-post-3.png" alt="blog3" class="blog-image" />
+      <div class="blog-content">
+        <h3>The Role of the Prefrontal Cortex in Mental Clarity</h3>
+        <div class="blog-meta">
+          <p>2025-08-01</p>
+          <div class="circle-arrow">
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!--------------------start-journey Section -------------------->
+    <div class="start-journey">
+      <div class="overlay-img"></div>
+      <div class="content">
+        <h1>Ready to start journey</h1>
+        <p>
+          Launch faster, work smarter, and grow without limits. Control Z is
+          your all-in-one platform to simplify what matters most.
+        </p>
+        <a href="#" class="cta-button">Become A Member</a>
+      </div>
+    </div>
+    <!--------------------footer------------------->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="./images/logo.png" alt="Control-z-logo" />
+        </div>
+
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h4>Care & Membership</h4>
+            <ul>
+              <li><a href="#">Get Started</a></li>
+              <li><a href="#">Membership</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Our Approach</h4>
+            <ul>
+              <li><a href="#">Our Psychedelic</a></li>
+              <li><a href="#">Our Philosophies</a></li>
+              <li><a href="#">Our Patients</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Partner with us</h4>
+            <ul>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Our Partners</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="newsletter">
+            <h4>Feel your best in every phase</h4>
+            <p>Join our wellness community</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter Email" />
+              <button type="submit"><i class="ri-arrow-right-line"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="social-icons">
+          <a href="#"><i class="ri-facebook-circle-line"></i></a>
+          <a href="#"><i class="ri-instagram-fill" alt="instagram"></i></a>
+          <a href="#"><i class="ri-twitter-x-line"></i></a>
+          <a href="#"><i class="ri-linkedin-box-line"></i></a>
+          <a href="#"><i class="ri-youtube-fill" alt="youtube"></i></a>
+        </div>
+
+        <p>© 2025 Control Z. All rights reserved.</p>
+
+        <div class="footer-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
