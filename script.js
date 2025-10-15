@@ -1,4 +1,25 @@
+// ========== LOAD HEADER AND FOOTER ==========
 document.addEventListener("DOMContentLoaded", function () {
+  // Load header
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+      
+      // Initialize hamburger menu after header loads
+      initializeMenu();
+    });
+
+  // Load footer
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    });
+});
+
+// ========== HAMBURGER MENU FUNCTIONALITY ==========
+function initializeMenu() {
   const hamburgerMenu = document.getElementById("hamburger-menu");
   const mobileMenu = document.getElementById("mobileMenu");
   const closeBtn = document.getElementById("close-btn");
@@ -33,7 +54,9 @@ document.addEventListener("DOMContentLoaded", function () {
   mobileMenuLinks.forEach((link) => {
     link.addEventListener("click", closeMenu);
   });
-});
+}
+
+// ========== OFFER CARDS SLIDER ==========
 const cards = document.querySelector(".offer-cards");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
@@ -66,6 +89,7 @@ function updateSlider() {
 // Initialize visibleCards on load
 updateVisibleCards();
 
+// Next button
 next.addEventListener("click", () => {
   const totalCards = document.querySelectorAll(".offer-card").length;
   const maxIndex = totalCards - visibleCards;
@@ -76,6 +100,7 @@ next.addEventListener("click", () => {
   }
 });
 
+// Previous button
 prev.addEventListener("click", () => {
   if (index > 0) {
     index--;
