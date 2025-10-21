@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function initializeMenu() {
   const hamburgerMenu = document.getElementById("hamburger-menu");
   const mobileMenu = document.getElementById("mobileMenu");
-  const closeBtn = document.getElementById("close-btn");
+  const closeBtn = document.getElementById("close-button");
   const overlay = document.getElementById("overlay");
 
   console.log("DOM loaded - checking elements...");
