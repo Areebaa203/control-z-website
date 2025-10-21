@@ -128,7 +128,7 @@
   z-index: 2;
   position: relative;
   font-family: "Instrument Sans", sans-serif;
-  width: 80%;
+  width: 75%;
 }
 
 .hero-content h2 {
@@ -193,8 +193,8 @@
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* ---------- HAMBURGER MENU ---------- */
-.hamburger-menu {
+/* ---------- HAMBURGER button ---------- */
+.hamburger-button {
   display: none;
   background: transparent;
   border: none;
@@ -202,11 +202,13 @@
   z-index: 1001;
 }
 
-.hamburger-menu i {
+.hamburger-button i {
   font-size: 26px;
   color: #fff;
 }
-
+.black-main{
+  height: 70%;
+}
 /* ---------- MOBILE MENU - FIXED ---------- */
 .mobile-menu {
   position: fixed;
@@ -1606,7 +1608,7 @@ footer {
     display: none;
   }
 
-  .hamburger-menu {
+  .hamburger-button {
     display: block;
     background: none;
     border: none;

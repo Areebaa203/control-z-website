@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ========== HAMBURGER MENU FUNCTIONALITY ==========
 function initializeMenu() {
-  const hamburgerMenu = document.getElementById("hamburger-menu");
+  const hamburgerButton = document.getElementById("hamburger-button");
   const mobileMenu = document.getElementById("mobileMenu");
   const closeBtn = document.getElementById("close-button");
   const overlay = document.getElementById("overlay");
@@ -28,7 +28,7 @@ function initializeMenu() {
   console.log("DOM loaded - checking elements...");
 
   // Open menu
-  hamburgerMenu.addEventListener("click", function () {
+  hamburgerButton.addEventListener("click", function () {
     console.log("Hamburger clicked - opening menu");
     mobileMenu.classList.add("active");
     overlay.classList.add("active");
