@@ -194,7 +194,7 @@
 }
 
 /* ---------- HAMBURGER button ---------- */
-.hamburger-button {
+.open-menu {
   display: none;
   background: transparent;
   border: none;
@@ -202,7 +202,7 @@
   z-index: 1001;
 }
 
-.hamburger-button i {
+.open-menu i {
   font-size: 26px;
   color: #fff;
 }
@@ -1188,7 +1188,17 @@ footer {
   padding-top: 25px;
   flex-wrap: wrap;
 }
-
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
 .social-icons a {
   margin-right: 15px;
   color: #ffd166;
@@ -1608,7 +1618,7 @@ footer {
     display: none;
   }
 
-  .hamburger-button {
+  .open-menu {
     display: block;
     background: none;
     border: none;
